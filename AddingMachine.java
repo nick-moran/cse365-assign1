@@ -13,7 +13,7 @@ public class AddingMachine {
   private String history;
   /**
    * This is the constructor. It takes no arguments, but sets total to zero
-   * and sets history to ""
+   * and sets history to "0"
    */
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
@@ -58,7 +58,8 @@ public class AddingMachine {
 
   /**
    * This clears the calculator by
-   * setting total to zero
+   * setting total to zero and resetting the
+   * history string
    */
   public void clear() {
     this.total = 0;
